@@ -1,1 +1,6 @@
+# node / npm
+node_modules
+*.log
+
+# OS
 .DS_Store
