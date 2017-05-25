@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 const HeaderNavItem = (props) => {
 	return(
 		<li className="">
-			<a href={props.path}>{props.name}</a>
+			<Link to={props.path}>{props.name}</Link>
 		</li>
 	);
 }

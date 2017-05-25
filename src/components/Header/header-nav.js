@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import HeaderNavItem from './header-nav-item';
-import Home from './home';
-import News from './news';
-import Research from './research';
+import Home from '../home';
+import News from '../news';
+import Research from '../research';
 
 const HeaderNav = () => {
 	return(
