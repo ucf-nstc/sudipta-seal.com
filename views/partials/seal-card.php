@@ -23,7 +23,7 @@
 
       <!-- Download CV Button -->
       <div class="block">
-        <a class="button is-fullwidth" href="http://scholar.google.com/citations?user=PD_2CZQAAAAJ&hl=en">
+        <a class="button is-fullwidth" href="http://sudipta-seal.ucf.edu/files/Sudipta_Seal-Short_CV.pdf">
           <span class="icon is-small">
             <i class="fa fa-file-text"></i>
           </span>
