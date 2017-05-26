@@ -1,7 +1,8 @@
 <section class="hero is-primary is-bold">
 	<!-- Hero header: will stick at the top -->
 	<div class="hero-head">
-		<?php require_once('./views/partials/nav.php') ?>
+		<?php 
+			require_once('./views/partials/nav.php') ?>
 	</div>
 
 	<!-- Hero content: will be in the middle -->

@@ -1,5 +1,6 @@
+<!-- Footer -->
 <footer class="footer">
-  <div class="container">
+  <div class="container content is-small">
     <div class="content has-text-centered">
       <p>
         <strong>Dr. Sudipta Seal</strong>, University of Central Florida &nbsp;|&nbsp; 
