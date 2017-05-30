@@ -14,6 +14,3 @@
 	<!-- Metas -->
 </head>
 <body>
-
-<?php 
-	require_once('./views/partials/hero.php'); ?>
