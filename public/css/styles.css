@@ -1,4 +1,21 @@
+body {
+	background-color: #eee;
+}
+
 .site-container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.is-highlighted {
+	color: #06c !important;
+}
+
+.hero-head .title strong {
+	font-weight: bold;
+}
+
+.hero-head .title {
+	padding: 20px 12px;
 }
