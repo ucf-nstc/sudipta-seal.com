@@ -1,0 +1,21 @@
+body {
+	background-color: #eee;
+}
+
+.seal-container {
+	background-color: #eee;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.seal-container section {
+	background-color: #eee;
+}
+
+.seal-container section div {
+	background-color: #fff !important;
+}
+
+.seal-container section div section {
+	background-color: #fff !important;
+}

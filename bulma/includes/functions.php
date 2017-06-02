@@ -7,3 +7,5 @@ function getPageTitle() {
 		return $_GET['page'];
 	} 
 }
+
+?>

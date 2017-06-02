@@ -1,4 +1,4 @@
-<section class="section">
+<div class="site-container">
 	<div class="card">
 
 		<?php
@@ -28,4 +28,4 @@
 		require_once('includes/footer.php'); ?>
 
 	</div>
-</section>
+</div>
