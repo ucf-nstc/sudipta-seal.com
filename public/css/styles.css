@@ -8,8 +8,24 @@ body {
 	padding: 25px 0;
 }
 
-.is-highlighted {
+.is-highlighted-text {
 	color: #06c !important;
+}
+
+.is-caution-text {
+	color: #ff8c00 !important;
+}
+
+.is-warning-text {
+	color: #ff2a1b !important;
+}
+
+.is-success-text {
+	color: #00b51a !important;
+}
+
+.is-light-text {
+	color: #999 !important;
 }
 
 .hero-head .title strong {

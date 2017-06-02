@@ -3,7 +3,7 @@
 	<!-- Title -->
 	<div class="container is-fluid">
 		<h1 class="title">
-			<strong class="is-highlighted">
+			<strong class="is-highlighted-text">
 				Nano-Bio-Materials-Manufacturing
 			</strong>
 			<strong>
