@@ -4,7 +4,7 @@
 		<?php
 
 		// Dr. Sudipta Seal Research Site
-		// Austin Tindle - tindleaj@gmail.com
+		// Austin Tindle - tindleaj@gmail.com || austin.tindle@ucf.edu
 
 		require_once('./includes/functions.php');
 		require_once('./includes/header.php');
@@ -13,6 +13,10 @@
 			switch ($_GET['page']) {
 				case 'home':
 					require_once('views/home.php');
+					break;
+
+				case 'news':
+					require_once('views/news.php');
 					break;
 				
 				default:
