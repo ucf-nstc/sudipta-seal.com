@@ -22,11 +22,11 @@
       </span>
       <div class="nav-left nav-menu is-hidden-mobile">
         <span class="nav-item"><a href="/">Home</a>&nbsp;&nbsp;&nbsp;|</span>
-        <span class="nav-item"><a href="/?page=news">News</a>&nbsp;&nbsp;&nbsp;|</span>
-        <span class="nav-item"><a href="/?page=research">Research</a>&nbsp;&nbsp;&nbsp;|</span>
-        <span class="nav-item"><a href="/?page=group">Group</a>&nbsp;&nbsp;&nbsp;|</span>
-        <span class="nav-item"><a href="/?page=labs">Labs</a>&nbsp;&nbsp;&nbsp;|</span>
-        <span class="nav-item"><a href="/?page=positions">Positions</a></span>
+        <span class="nav-item"><a href="./?page=news">News</a>&nbsp;&nbsp;&nbsp;|</span>
+        <span class="nav-item"><a href="./?page=research">Research</a>&nbsp;&nbsp;&nbsp;|</span>
+        <span class="nav-item"><a href="./?page=group">Group</a>&nbsp;&nbsp;&nbsp;|</span>
+        <span class="nav-item"><a href="./?page=labs">Labs</a>&nbsp;&nbsp;&nbsp;|</span>
+        <span class="nav-item"><a href="./?page=positions">Positions</a></span>
       </div>
 		</div>
 	</nav>
