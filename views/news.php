@@ -20,8 +20,12 @@
 <section class="section">
 	<h1 class="title is-3">News</h1>
 	<hr>
-	<div>
 
+	<!-- Featured news item -->
+	<?php 
+		require_once('./views/partials/news-feature.php'); ?>
+
+	<div>
 	<?php 
 		$year_index = array();
 		foreach ($json as $post) {
@@ -49,4 +53,8 @@
 	?>
 
 	</div>
+
+	<br>
+	<br>
+	<a href="" class="button">View Legacy News</a>
 </section>
