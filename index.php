@@ -35,6 +35,10 @@
 			case 'news':
 				require_once('views/news.php');
 				break;
+
+			case 'group':
+				require_once('views/group.php');
+				break;
 			
 			default:
 				require_once('views/404.php');
