@@ -4,4 +4,4 @@ $content = 'Using the ordered nature and affinity of bio-molecule pairings, we c
 $applications = "Nanoparticle diffusion, catalytic, and general kinetics in a variety of material systems including propellants, energetics, solid catalysts, and nano-composites.";
 $image = "http://bulma.io/images/placeholders/128x128.png";
 $funding = "NSF";
-$collaboration = null;
+$collaboration = "Mayo, Henry Ford, Germany, Imperial College-UK, Virginia Tech, IIT-India, Oklahoma Eye Inst, McGill, Duke, MD Andersen Cancer Center, Orlando Health";
