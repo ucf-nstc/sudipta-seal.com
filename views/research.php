@@ -30,6 +30,3 @@
 		</div>
 	</div>
 </section>
-
-<!-- Script for toggling article visibility -->
-<script type="text/javascript" src="../public/js/script.js"></script>
