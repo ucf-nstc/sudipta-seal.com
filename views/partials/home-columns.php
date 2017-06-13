@@ -5,7 +5,7 @@
 	<div class="column">
 		<div class="content is-small">
 			<?php 
-				require_once('./content/home/news.html'); ?>
+				require_once('./views/partials/home-news.php'); ?>
 		</div>
 	</div>
 
