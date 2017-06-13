@@ -10,8 +10,9 @@
 	$article_array = scandir($dir);
 	
 	foreach ($article_array as $article) {
-		if (strpos($article, 'html') !== false) {
+		if (strpos($article, '.html') !== false || strpos($article, '.php') !== false) {
 			include($dir . $article);
+			include('./views/partials/research-article.php');
 		}
 	}
 
