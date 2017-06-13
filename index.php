@@ -23,6 +23,7 @@
 		</section>
 
 		<?php
+		// Router
 		switch ($page) {
 			case '':
 				require_once('views/home.php');
@@ -38,6 +39,10 @@
 
 			case 'group':
 				require_once('views/group.php');
+				break;
+
+			case 'research':
+				require_once('views/research.php');
 				break;
 			
 			default:
