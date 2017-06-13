@@ -7,13 +7,16 @@
 	 * 
 	 * *** PLEASE DON'T ADD NEWS ITEMS TO THIS FILE ***
 	 * Just put them in the database and make sure the correct 'groups' value is there.
+	 * Additionally, if the news item should only be displayed on the specific group page and not
+	 * AMPAC or NSTC news pages, make sure the 'department' field is set to 'grouponly'
 	 */
 
 	// TODO - refactor this out as a function to be used on other group sites
 
+
 	$group = 'seal';
 
-	$json = json_decode(file_get_contents('http://nanoscience.ucf.edu/news/api/get-news.php'));
+	$json = json_decode(file_get_contents('http://nanoscience.ucf.edu/api/get-news.php'));
 	date_default_timezone_set('America/New_York');
 ?>
 
