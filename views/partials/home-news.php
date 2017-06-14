@@ -19,4 +19,4 @@ date_default_timezone_set('America/New_York');
 ?>
 </p>
 <br>
-<a href="/?page=news" class="button is-info">More news</a>
+<a href="./?page=news" class="button is-info">More news</a>
