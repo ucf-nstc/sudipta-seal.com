@@ -6,7 +6,7 @@ $article_array = json_decode($json);
 
 // Returns each json object as a php object
 foreach ($article_array as $article) {
-	include('./views/partials/research-article.php');
+	include('./views/partials/research-overview-article.php');
 }
 
 ?>

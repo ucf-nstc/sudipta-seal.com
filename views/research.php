@@ -12,13 +12,13 @@
 <section class="section">
 	<div class="columns">
 
-		<div class="column is-one-quarter">
+		<div class="column">
 			<?php
 				// Sidebar
 				require('./views/partials/research-sidebar.php'); ?>
 		</div>
 
-		<div class="column">
+		<div class="column is-three-quarters">
 
 			<h1 class="title is-3 is-spaced">Research</h1>
 			<h2 class="subtitle is-4"><?=$subtitle?></h2>
