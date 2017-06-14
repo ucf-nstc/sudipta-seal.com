@@ -3,7 +3,7 @@
 		<div class="media-content">
 			<div class="content">
 				<p>
-					<strong><?=$item->name?></strong> &nbsp; <small><a href="<?$item->link?>"><?=$item->link?></a></small>
+					<strong><?=$item->name?></strong> &nbsp; <small><a href="<?=$item->link?>"><?=$item->link?></a></small>
 					<br>
 					<?=$item->description?>
 				</p>
