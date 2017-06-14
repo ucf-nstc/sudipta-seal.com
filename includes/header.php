@@ -15,5 +15,6 @@
 	<title>Dr. Sudipta Seal | <?= getPageTitle() ?></title>
 
 	<!-- Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
