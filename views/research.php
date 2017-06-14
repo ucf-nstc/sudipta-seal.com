@@ -26,7 +26,7 @@
 			
 			<?php
 				// Research Sub-Router
-				$dir = './views/partials/research/';
+				$dir = './views/research/';
 
 				switch ($subpage) {
 					case 'overview':

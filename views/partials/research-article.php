@@ -1,51 +1,51 @@
 <article class="message is-info research-article">
   <div class="message-header">
-    <a class="toggle"><p><?=$title?></p></a>
+    <a class="toggle"><p><?=$article->title?></p></a>
     <button class="delete hide hidden"></button>
   </div>
   <div class="message-body media hidden">
  		<div class="media-content">
     	<div class="content">
-        <?=$content?>
+        <?=$article->content?>
       </div>
     	<br>
 
       <?php
-      if ($applications) { ?>
+      if ($article->applications) { ?>
         <h3 class="title is-5">Applications</h3>
         <hr>
         <div class="content">
-          <?=$applications?>
+          <?=$article->applications?>
         </div>
       <?php }
 
-      if ($funding) { ?>
+      if ($article->funding) { ?>
         <br>
         <br>
       	<h3 class="title is-5">Funding</h3>
       	<hr>
       	<div class="content">
-          <?=$funding?>
+          <?=$article->funding?>
         </div>
       <?php }
 
-      if ($collaborators) { ?>
+      if ($article->collaborators) { ?>
         <br>
         <br>
         <h3 class="title is-5">Collaborators</h3>
         <hr>
         <div class="content">
-          <?=$collaborators?>
+          <?=$article->collaborators?>
         </div>
       <?php } ?>
 
     </div>
 
     <?php
-      if ($image) { ?>
+      if ($article->image) { ?>
         <div class="media-right">
           <figure class="image">
-            <img src="<?=$image?>">
+            <img src="<?=$article->image?>">
           </figure>
         </div>
       <?php } ?>

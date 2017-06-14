@@ -1,58 +1,56 @@
-// This json file contains the content and meta information for the overview articles on the
-// research->overview page. To add an article, create a new json object below
-
-// TODO generate this content a way other than manually
-{
-	"title" : "Rare Earths for Biomedical Applications - Nanobiotechnology",
-	"content" : "We are developing bulk nano structure coatings and nano composites with metal/CNT and ceramic matrices for functional coatings (corrosion, wear resistant, biomaterials). Recently, we are working on solution precursor plasma spray technique (SPPS) to produce rare earth based functional coatings (with or without dopings). As an example, we have developed doped cerium oxide thin coating for SOFC electrolyte and high temperature oxidation protection. Our research focused on coating development, microstructure structure and properties correlation using advanced material characterization tools. In house spray drying facility provides variety of spray dried composite powders to develop coatings at different level of porosities.",
-	"applications" : null,
-	"image" : null,
-	"funding" : "ONR, DURIP, Schlumberger, NSF",
-	"collaboration" : "FIU",
-},
-{
-	"title" : "Plasma-Based Nano Manufacturing",
-	"content" : "We are developing bulk nano structure coatings and nano composites with metal/CNT and ceramic matrices for functional coatings (corrosion, wear resistant, biomaterials). Recently, we are working on solution precursor plasma spray technique (SPPS) to produce rare earth based functional coatings (with or without dopings). As an example, we have developed doped cerium oxide thin coating for SOFC electrolyte and high temperature oxidation protection. Our research focused on coating development, microstructure structure and properties correlation using advanced material characterization tools. In house spray drying facility provides variety of spray dried composite powders to develop coatings at different level of porosities.",
-	"applications" : null,
-	"image" : null,
-	"funding" : "ONR, DURIP, Schlumberger, NSF",
-	"collaboration" : "FIU",
-},
-{
-	"title" : "Nanostructure Sensor System for Chemical and Biological Detection",
-	"content" : "We are exploring the chemi-resistance properties of semiconductor oxide for developing gas sensor by integrating into MEMS device. Our devices are highly sensitive and selective and can operate in low temperature and high humid conditions. We are also investigating various nano-membranes to enhance the performance in high humidity environment. Further, theoretical models are developed explaining the sensing mechanism of reducing gases on nano semiconductor oxides. Detailed material characterization is performed to understand the surfaces of these nanosensors. We are also developing bio-sensors, where the redox property of nanocrystalline cerium oxide is utilized to detect and measure the production of hydrogen peroxide in biological environment. This has implication in detecting ROS in various neurodegenerative disorders. Research is focused on the surface modification of electrode, which plays a key role in such bio-sensor, due to surface contamination by protein molecules present in the environment of sensor applications.",
-	"applications" : null,
-	"image" : null,
-	"funding" : "NSF",
-	"collaboration" : null,
-},
-{
-	"title" : "Nano Energetics",
-	"content" : "Composite energetic materials play an important role in modern society, being used in airbags, oil and gas exploration, and most famously, as the propellant in solid rockets. Nanostructured energetic composites have orders of magnitude higher interfacial areas compared to traditional composites, and making the material from the “bottom up”, using molecular building blocks, gives us unprecedented control over the composite structure and composition. Combined, these advantages allow us to dramatically increase the energy density and performance of the material.",
-	"applications" : null,
-	"image" : null,
-	"funding" : null,
-	"collaboration" : "Texas A&M University",
-},
-{
-	"title" : "Nano-Bio Assembly and System Development",
-	"content" : "Using the ordered nature and affinity of bio-molecule pairings, we can template and conjugate nanoparticles into macro, micro or nanosystems. These technologies typically use dual component compatibility system consisting of two types of bio molecules that act similarly to a lock and key to coordinate different particles coordinated to the 'keys' to conjugated with particles or systems containing the 'locks.' The strength of the bio-molecule conjugations can allow for particles to be coordinated into formations that can range from 3-d templates, to surface coatings for various energetic applications.",
-	"applications" : "Nanoparticle diffusion, catalytic, and general kinetics in a variety of material systems including propellants, energetics, solid catalysts, and nano-composites.",
-	"image" : "http://bulma.io/images/placeholders/128x128.png",
-	"funding" : "NSF",
-	"collaboration" : "Mayo, Henry Ford, Germany, Imperial College-UK, Virginia Tech, IIT-India, Oklahoma Eye Inst, McGill, Duke, MD Andersen Cancer Center, Orlando Health",
-},
-{
-	"title" : "High Temperature Corrosion",
-	"content" : "High temperature and high pressure (HT/HP) corrosion test setup has been designed with in situ electrochemical impedance spectroscopy (EIS) capability. The cell can be operated at high pressure (20000 Psi) and high temperature (300 oF) in corrosive conditions, which provides important corrosion information of various steels and materials in HT/HP conditions useful to oil and gas industries.",
-	"applications" : null,
-	"funding" : "Schlumberger",
-	"collaboration" : null,
-},
-{
-	"title" : "Atomistic Simulation",
-	"content" : "We have revealed novel radiation sensitive properties of ceria nanoparticles. To understand this, group is working out atomistic simulation to understand the interaction of radiation induced changes in nanocrystalline cerium oxide. Various lattice models are created for cerium oxide and study the effect of radiation by carrying out molecular dynamics simulation. The simulation study is underway in collaboration with the team at Pacific Northwest National Lab. (International partners: Crainfield University)",
-	"applications" : null,
-	"funding" : "NSF",
-	"collaboration" : null,
-}
+[
+	{
+		"title" : "Rare Earths for Biomedical Applications - Nanobiotechnology",
+		"content" : "We are developing bulk nano structure coatings and nano composites with metal/CNT and ceramic matrices for functional coatings (corrosion, wear resistant, biomaterials). Recently, we are working on solution precursor plasma spray technique (SPPS) to produce rare earth based functional coatings (with or without dopings). As an example, we have developed doped cerium oxide thin coating for SOFC electrolyte and high temperature oxidation protection. Our research focused on coating development, microstructure structure and properties correlation using advanced material characterization tools. In house spray drying facility provides variety of spray dried composite powders to develop coatings at different level of porosities.",
+		"applications" : null,
+		"image" : null,
+		"funding" : "ONR, DURIP, Schlumberger, NSF",
+		"collaboration" : "FIU"
+	},
+	{
+		"title" : "Plasma-Based Nano Manufacturing",
+		"content" : "We are developing bulk nano structure coatings and nano composites with metal/CNT and ceramic matrices for functional coatings (corrosion, wear resistant, biomaterials). Recently, we are working on solution precursor plasma spray technique (SPPS) to produce rare earth based functional coatings (with or without dopings). As an example, we have developed doped cerium oxide thin coating for SOFC electrolyte and high temperature oxidation protection. Our research focused on coating development, microstructure structure and properties correlation using advanced material characterization tools. In house spray drying facility provides variety of spray dried composite powders to develop coatings at different level of porosities.",
+		"applications" : null,
+		"image" : null,
+		"funding" : "ONR, DURIP, Schlumberger, NSF",
+		"collaboration" : "FIU"
+	},
+	{
+		"title" : "Nanostructure Sensor System for Chemical and Biological Detection",
+		"content" : "We are exploring the chemi-resistance properties of semiconductor oxide for developing gas sensor by integrating into MEMS device. Our devices are highly sensitive and selective and can operate in low temperature and high humid conditions. We are also investigating various nano-membranes to enhance the performance in high humidity environment. Further, theoretical models are developed explaining the sensing mechanism of reducing gases on nano semiconductor oxides. Detailed material characterization is performed to understand the surfaces of these nanosensors. We are also developing bio-sensors, where the redox property of nanocrystalline cerium oxide is utilized to detect and measure the production of hydrogen peroxide in biological environment. This has implication in detecting ROS in various neurodegenerative disorders. Research is focused on the surface modification of electrode, which plays a key role in such bio-sensor, due to surface contamination by protein molecules present in the environment of sensor applications.",
+		"applications" : null,
+		"image" : null,
+		"funding" : "NSF",
+		"collaboration" : null
+	},
+	{
+		"title" : "Nano Energetics",
+		"content" : "Composite energetic materials play an important role in modern society, being used in airbags, oil and gas exploration, and most famously, as the propellant in solid rockets. Nanostructured energetic composites have orders of magnitude higher interfacial areas compared to traditional composites, and making the material from the “bottom up”, using molecular building blocks, gives us unprecedented control over the composite structure and composition. Combined, these advantages allow us to dramatically increase the energy density and performance of the material.",
+		"applications" : null,
+		"image" : null,
+		"funding" : null,
+		"collaboration" : "Texas A&M University"
+	},
+	{
+		"title" : "Nano-Bio Assembly and System Development",
+		"content" : "Using the ordered nature and affinity of bio-molecule pairings, we can template and conjugate nanoparticles into macro, micro or nanosystems. These technologies typically use dual component compatibility system consisting of two types of bio molecules that act similarly to a lock and key to coordinate different particles coordinated to the 'keys' to conjugated with particles or systems containing the 'locks.' The strength of the bio-molecule conjugations can allow for particles to be coordinated into formations that can range from 3-d templates, to surface coatings for various energetic applications.",
+		"applications" : "Nanoparticle diffusion, catalytic, and general kinetics in a variety of material systems including propellants, energetics, solid catalysts, and nano-composites.",
+		"image" : "http://bulma.io/images/placeholders/128x128.png",
+		"funding" : "NSF",
+		"collaboration" : "Mayo, Henry Ford, Germany, Imperial College-UK, Virginia Tech, IIT-India, Oklahoma Eye Inst, McGill, Duke, MD Andersen Cancer Center, Orlando Health"
+	},
+	{
+		"title" : "High Temperature Corrosion",
+		"content" : "High temperature and high pressure (HT/HP) corrosion test setup has been designed with in situ electrochemical impedance spectroscopy (EIS) capability. The cell can be operated at high pressure (20000 Psi) and high temperature (300 oF) in corrosive conditions, which provides important corrosion information of various steels and materials in HT/HP conditions useful to oil and gas industries.",
+		"applications" : null,
+		"funding" : "Schlumberger",
+		"collaboration" : null
+	},
+	{
+		"title" : "Atomistic Simulation",
+		"content" : "We have revealed novel radiation sensitive properties of ceria nanoparticles. To understand this, group is working out atomistic simulation to understand the interaction of radiation induced changes in nanocrystalline cerium oxide. Various lattice models are created for cerium oxide and study the effect of radiation by carrying out molecular dynamics simulation. The simulation study is underway in collaboration with the team at Pacific Northwest National Lab. (International partners: Crainfield University)",
+		"applications" : null,
+		"funding" : "NSF",
+		"collaboration" : null
+	}
+]
