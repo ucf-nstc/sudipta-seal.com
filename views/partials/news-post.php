@@ -1,7 +1,7 @@
 <article class="media">
 	<figure class="media-left">
 		<p>
-			<?=date("M d, Y", strtotime($post->postdate))?> -
+			<?=date("M d", strtotime($post->postdate))?> -
 		</p>
 	</figure>
 	<div class="media-content">
