@@ -1,7 +1,0 @@
-<?php
-$title = "Nanostructure Sensor System for Chemical and Biological Detection";
-$content = 'We are exploring the chemi-resistance properties of semiconductor oxide for developing gas sensor by integrating into MEMS device. Our devices are highly sensitive and selective and can operate in low temperature and high humid conditions. We are also investigating various nano-membranes to enhance the performance in high humidity environment. Further, theoretical models are developed explaining the sensing mechanism of reducing gases on nano semiconductor oxides. Detailed material characterization is performed to understand the surfaces of these nanosensors. We are also developing bio-sensors, where the redox property of nanocrystalline cerium oxide is utilized to detect and measure the production of hydrogen peroxide in biological environment. This has implication in detecting ROS in various neurodegenerative disorders. Research is focused on the surface modification of electrode, which plays a key role in such bio-sensor, due to surface contamination by protein molecules present in the environment of sensor applications.';
-$applications = null;
-$image = null;
-$funding = "NSF";
-$collaboration = null;
