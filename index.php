@@ -44,6 +44,22 @@
 			case 'research':
 				require_once('views/research.php');
 				break;
+
+			case 'overview':
+				require_once('views/research.php');
+				break;
+
+			case 'patents':
+				require_once('views/research.php');
+				break;
+
+			case 'technology':
+				require_once('views/research.php');
+				break;
+
+			case 'funding':
+				require_once('views/research.php');
+				break;
 			
 			default:
 				require_once('views/404.php');
