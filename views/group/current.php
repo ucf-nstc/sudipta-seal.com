@@ -13,19 +13,21 @@ foreach($json as $member) {
 	}
 
 	if (strpos($member->groups, $group) !== false) {
-		// display the section header (member title) if the member is part of a new grouping
-		if (array_search($member->title, $title_index) === false) {
-			?>
-			</div>
-			<br><br>
-			<h2 class="title is-4"><?=$member->title?></h2>
-			<hr>
-			<div>
-			<?php
-			array_push($title_index, $member->title);
-		}
+		if (!$member->alumni) {
+			// display the section header (member title) if the member is part of a new grouping
+			if (array_search($member->title, $title_index) === false) {
+				?>
+				</div>
+				<br><br>
+				<h2 class="title is-4"><?=$member->title?></h2>
+				<hr>
+				<div>
+				<?php
+				array_push($title_index, $member->title);
+			}
 
-		include('./views/partials/group-member.php');
+			include('./views/partials/group-member.php');
+		}
 	}
 }
 

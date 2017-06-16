@@ -11,8 +11,8 @@ $json = json_decode(file_get_contents('http://nanoscience.ucf.edu/api/get-group.
 		<tr>
 			
 			<th>Name</th>
-			<th>Research</th>
-			<th>Title</th>
+			<!-- <th>Research</th> -->
+			<th>Position</th>
 
 		</tr>
 	</thead>
@@ -28,7 +28,7 @@ $json = json_decode(file_get_contents('http://nanoscience.ucf.edu/api/get-group.
 
 				<tr>
 					<th><?=$name?></th>
-					<td><?=$member->research?></td>
+					<!-- <td></td> -->
 					<td><?=$member->title?></td>
 				</tr>
 
