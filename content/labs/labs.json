@@ -1,0 +1,17 @@
+[
+	{
+		"name" : "Surface Engineering & NanoTechnology Lab",
+		"description" : "The SNF lab is equipped with multiple instruments to parallely support multitude of research projects in different areas of science and nanotechnology. The lab is equipped with instruments to facilitate and accelerate the synthesis as well as characterization of materials. It is our motto to become self sustained in characterization of materials. In addition to the various instruments, the lab has a full privileged access to the centralized materials facility (Materials Characterization Facility) which is situated next to the SNF Lab. MCF is equipped with the most modern and scientific instruments required for characterization of materials and is supported by very promising and dedicated staff which make this facility one of the best in nanomaterials and surface characterization.",
+		"link" : ""
+	},
+	{
+		"name" : "Plasma Lab",
+		"description" : "The thermal spray laboratory at UCF houses the state-of-the-art coating and bulk component development facility comprising Plasma and HVOF spray modules. The laboratory is well equipped to develop coatings from ceramic, metallic particles (both micro and nano size ranges) and solution precursors with applications spanning from corrosion-wearoxidation resistant, thermal barrier to thermal protection. The laboratory also has expertise to manufacture bulk nanostructured composites with simple to complex geometries with considerable ease than other processing techniques. Depending on the material and coating/ bulk component properties, the torch and spray parameter combination is chosen from the thermal spray infrastructure. Using a range of plasma spray torches 3 MB (40 kW), 9 MB (80 kW), F4 (60 kW), SG100 torches, the high melting point materials could be processed. HVOF torches (Jet Kote) is useful to shoot the metallic particles at high velocities thereby high dense overlay coatings could be achieved on desired substrates. The torches are mounted on a six axis robot that could carry the torch to virtually any location in the booth precisely to perform the coating process precisely. Sensors (DPV, Acura Spray, Spray Watch) are available to determine the velocity and temperature of particles during the spray process that can be used to correlate the spray parameters to the particle states and thereby the properties of the end application. Powder feeders (1264 Praxair model and DJ 9MP) and mass flow controllers are available for precise monitoring of the feed rates of powders and gases respectively. Spray drying equipment is available to prepare nano-feedstock powders for effective and safe handling of nano powders for coatings and components for thermal, catalytic, biomedical and energy applications.",
+		"link" : ""
+	},
+	{
+		"name" : "nSolGel Lab",
+		"description" : "",
+		"link" : ""
+	}
+]
