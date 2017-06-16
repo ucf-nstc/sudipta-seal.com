@@ -9,47 +9,62 @@
 	 * Just put them in the database and make sure the correct 'groups' value is there.
 	 */
 
-	// TODO - refactor this out as a function to be used on other group sites
+	// TODO - refactor this out as a function to be used on other group sites 
 
+$subpage = $_GET['page']; 
+$subtitle = ucfirst($subpage);
 
-$group = 'seal';
-$json = json_decode(file_get_contents('http://nanoscience.ucf.edu/api/get-group.php'));
+if ($subtitle == 'Group') {
+	$subtitle = 'Current';
+}
+
+if ($subtitle == 'Reu') {
+	$subtitle = 'REU';
+}
 
 ?>
-
+ 
 <section class="section">
-	<h1 class="title is-3">Research Group</h1>
-	<hr>
+	<div class="columns">
 
-	<div>
-	<?php
-		$title_index= array();
-		foreach($json as $member) {
-			$name = $member->firstName . " " . $member->lastName;
-			$image = $member->image;
-			if ($image === null) {
-				$image = 'blank.jpg';
-			}
+		<div class="column is-one-quarter">
+			<?php 
+				require_once('./views/partials/group-sidebar.php'); ?>
+		</div>
 
-			if (strpos($member->groups, $group) !== false) {
-				// display the section header (member title) if the member is part of a new grouping
-				if (array_search($member->title, $title_index) === false) {
-					?>
-					</div>
-					<br><br>
-					<h2 class="title is-4"><?=$member->title?></h1>
-					<hr>
-					<div>
-					<?php
-					array_push($title_index, $member->title);
+		<div class="column">
+			<h1 class="title is-3 is-spaced">Research Group</h1>
+			<h2 class="subtitle is-4"><?=$subtitle?></h2>
+			<hr>
+
+			<?php
+				// Group Sub-Router
+				$dir = './views/group/';
+
+				switch ($subpage) {
+					case 'current':
+						require_once($dir . 'current.php');
+						break;
+
+					case 'alumni':
+						require_once($dir . 'alumni.php');
+						break;
+
+					case 'reu':
+						require_once($dir . 'reu.php');
+						break;
+
+					case 'gallery':
+						require_once($dir . 'gallery.php');
+						break;
+					
+					default:
+						# code...
+						break;
 				}
 
-				include('./views/partials/group-member.php');
-			}
-		}
+			?>
 
-	?>
+		</div>
 	</div>
-	<br>
-	<br>
 </section>
