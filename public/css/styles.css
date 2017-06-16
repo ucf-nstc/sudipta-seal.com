@@ -39,3 +39,7 @@ body {
 .hidden {
 	display: none;
 }
+
+.gallery-image {
+	max-width: 120px;
+}
