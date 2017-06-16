@@ -27,6 +27,9 @@
 		// Sub page variables (?page=funding, for example) should be routed to their 
 		// index (parent) page and from there the parent should handle further routing / display
  		switch ($page) {
+
+ 			// Main
+
 			case '':
 				require_once('views/home.php');
 				break;
@@ -47,6 +50,17 @@
 				require_once('views/research.php');
 				break;
 
+			case 'positions':
+				require_once('views/positions.php');
+				break;
+
+			case 'labs':
+				require_once('views/labs.php');
+				break;
+
+			// Sub
+
+			// Research
 			case 'overview':
 				require_once('views/research.php');
 				break;
@@ -63,6 +77,7 @@
 				require_once('views/research.php');
 				break;
 
+			// Group
 			case 'current':
 					require_once('views/group.php');
 					break;

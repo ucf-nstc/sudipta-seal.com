@@ -42,6 +42,10 @@ if ($subtitle == 'Reu') {
 				$dir = './views/group/';
 
 				switch ($subpage) {
+					case 'group':
+						require_once($dir . 'current.php');
+						break;
+
 					case 'current':
 						require_once($dir . 'current.php');
 						break;
