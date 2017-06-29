@@ -93,6 +93,22 @@
 			case 'gallery':
 					require_once('views/group.php');
 					break;
+
+			case 'labs':
+					require_once('views/labs.php');
+					break;
+
+			case 'surface':
+					require_once('views/labs.php');
+					break;
+
+			case 'plasma':
+					require_once('views/labs.php');
+					break;
+
+			case 'nsolgel':
+					require_once('views/labs.php');
+					break;
 			
 			default:
 				break;

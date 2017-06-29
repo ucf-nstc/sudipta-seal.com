@@ -1,23 +1,61 @@
 <?php 
 	$subpage = $_GET['page'];
+	$subtitle = ucfirst($subpage) . ' Lab';
+
+	if ($subpage == 'labs') {
+		$subtitle = 'Overview';
+	} 
+
+	if ($subpage == 'surface') {
+		$subtitle = 'Surface Engineering & NanoTechnology Lab';
+	}
 ?>
 
 <section class="section">
-	<h1 class="title is-3 is-spaced">Labs</h1>
-	<h2 class="subtitle is-4"></h2>
-	<hr>
+	<div class="columns">
+		<div class="column is-one-quarter">
+			<?php
+				require_once('./views/partials/labs-sidebar.php') ?>
+		</div>
 
-	<?php
+		<div class="column">
+			<h1 class="title is-3 is-spaced">Labs</h1>
+			<h2 class="subtitle is-4"><?=$subtitle?></h2>
+			<hr>
 
-		$json = file_get_contents('./content/labs/labs.json');
-		$item_array = json_decode($json);
+			<?php
+				// Labs Sub-Router
+				$dir = './content/labs/';
 
-		// Returns each json object as a php object
-		foreach ($item_array as $lab) {
-			include('./views/partials/labs-item.php');
-		}
+				switch ($subpage) {
+					case 'plasma':
+						require_once($dir . 'plasma.html');
+						break;
 
-	?>
+					case 'surface':
+						require_once($dir . 'surface.html');
+						break;
 
+					case 'nsolgel':
+						require_once($dir . 'nsolgel.html');
+						break;
 
+					case '':
+						require_once('./views/partials/labs-overview.php');
+						break;
+
+					case 'labs':
+						require_once('./views/partials/labs-overview.php');
+						break;
+					
+					default:
+						# code...
+						break;
+				}
+
+			?>
+
+		</div>
+
+	</div>
 </section>

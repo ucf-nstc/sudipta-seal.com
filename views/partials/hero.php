@@ -13,19 +13,28 @@
 <!-- Slider -->
 <!-- Hero Body -->
 <div class="hero-body is-paddingless">
-	
-	<div id="sliderFrame">
-    <div id="slider">
+	<div class="columns is-gapless">
 
-      <?php
-      	foreach ($images as $image) {
-					if (strpos($image, '.png') || strpos($image, '.jpg')) { ?>
+		<div class="column">
+			<div id="sliderFrame">
+		    <div id="slider">
 
-						<img src="<?=$dir . $image?>" alt="" class="slider-image"/>
+		      <?php
+		      	foreach ($images as $image) {
+							if (strpos($image, '.png') || strpos($image, '.jpg')) { ?>
 
-					<?php }
-				} ?>
+								<img src="<?=$dir . $image?>" alt="" class="slider-image"/>
 
-      </div>
-  </div>
+							<?php }
+						} ?>
+
+		      </div>
+		  </div>
+		</div>
+
+		<div class="column has-text-centered">
+			<img src="./public/images/home/quote.jpg">
+		</div>
+
+	</div>
 </div>	
