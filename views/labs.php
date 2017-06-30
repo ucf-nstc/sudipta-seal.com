@@ -1,4 +1,6 @@
 <?php 
+	require_once('./includes/functions.php');
+
 	$subpage = $_GET['page'];
 	$subtitle = ucfirst($subpage) . ' Lab';
 

@@ -9,6 +9,7 @@
  */
 
 // filter invalid folders from album list
+// TODO refactor into function
 function is_valid_file($filename) {
 	switch ($filename) {
 		case '.':
@@ -37,6 +38,7 @@ function is_valid_file($filename) {
 	}
 }
 
+// TODO refactor into function
 $dir = './public/images/group/gallery/';
 $dir_contents = scandir($dir);
 
