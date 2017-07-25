@@ -13,7 +13,7 @@
 	</div>
 
 	<!-- Nav -->
-	<nav class="nav">
+	<nav class="navbar">
 		<div class="container is-fluid">
 			<span class="nav-toggle">
         <span></span>
@@ -28,6 +28,16 @@
         <span class="nav-item"><a href="./?page=labs">Labs</a>&nbsp;&nbsp;&nbsp;|</span>
         <span class="nav-item"><a href="./?page=positions">Positions</a></span>
       </div>
+
+			<!-- Mobile Nav -->
+			<div class="nav-menu mobile-nav hidden">
+				<span class="nav-item"><a href="./">Home</a></span>
+        <span class="nav-item"><a href="./?page=news">News</a></span>
+        <span class="nav-item"><a href="./?page=research">Research</a></span>
+        <span class="nav-item"><a href="./?page=group">Group</a></span>
+        <span class="nav-item"><a href="./?page=labs">Labs</a></span>
+        <span class="nav-item"><a href="./?page=positions">Positions</a></span>
+			</div>
 		</div>
 	</nav>
 

@@ -1,4 +1,4 @@
- <?php 
+ <?php
 	// Navigation
 	require_once('./views/partials/nav.php');
 
@@ -12,7 +12,7 @@
 
 <!-- Slider -->
 <!-- Hero Body -->
-<div class="hero-body is-paddingless">
+<div class="hero-body is-paddingless is-hidden-mobile">
 	<div class="columns is-gapless">
 
 		<div class="column">
@@ -37,4 +37,4 @@
 		</div>
 
 	</div>
-</div>	
+</div>
