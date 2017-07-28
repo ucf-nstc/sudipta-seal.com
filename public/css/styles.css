@@ -1,5 +1,14 @@
+a {
+  color: #1b76d1;
+  font-weight: bold;
+}
+
 body {
-  background-color: #eee;
+  background-color: #999;
+}
+
+.hero-body {
+  background-color: #ffdb4a;
 }
 
 .site-container {
@@ -46,4 +55,12 @@ body {
 
 .home-columns .column .content p {
   line-height: 1.1rem;
+}
+
+.home-columns hr {
+  border-bottom: 2px solid #ccc;
+}
+
+.site-title {
+  padding: 0 20px;
 }

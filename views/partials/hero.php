@@ -12,7 +12,7 @@
 
 <!-- Slider -->
 <!-- Hero Body -->
-<div class="hero-body is-hidden-mobile">
+<div class="hero-body is-hidden-mobile card">
 	<div class="columns is-gapless">
 
 		<div class="column">
