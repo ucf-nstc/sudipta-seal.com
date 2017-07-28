@@ -1,45 +1,49 @@
 body {
-	background-color: #eee;
+  background-color: #eee;
 }
 
 .site-container {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 25px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px 0;
 }
 
 .is-highlighted-text {
-	color: #06c !important;
+  color: #06c !important;
 }
 
 .is-caution-text {
-	color: #ff8c00 !important;
+  color: #ff8c00 !important;
 }
 
 .is-warning-text {
-	color: #ff2a1b !important;
+  color: #ff2a1b !important;
 }
 
 .is-success-text {
-	color: #00b51a !important;
+  color: #00b51a !important;
 }
 
 .is-light-text {
-	color: #999 !important;
+  color: #999 !important;
 }
 
 .hero-head .title strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .hero-head .title {
-	padding: 20px 12px;
+  padding: 20px 12px;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
 
 .gallery-image {
-	max-height: 85px;
+  max-height: 85px;
+}
+
+.home-columns .column .content p {
+  line-height: 1.1rem;
 }
