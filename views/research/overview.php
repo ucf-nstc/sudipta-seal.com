@@ -1,6 +1,8 @@
 <?php
-// Pull research overview article content from content/overview.json and then display on the page
+// Include general Research overview writeup
+require_once('content/research/overview-general.html');
 
+// Pull research overview article content from content/overview.json and then display on the page
 $json = file_get_contents('./content/research/overview.json');
 $article_array = json_decode($json);
 
