@@ -1,7 +1,7 @@
 <article class="media">
 	<div class="media-left">
 		<figure class="image">
-			<img src="./public/images/group/members/<?=$image?>" alt="<?=$name?>" class="card">
+			<img src="./public/images/group/members/<?=$image?>" alt="<?=$name?>" class="card group-image">
 		</figure>
 	</div>
 	<div class="media-content">

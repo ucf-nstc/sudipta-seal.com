@@ -64,3 +64,8 @@ body {
 .site-title {
   padding: 0 20px;
 }
+
+.group-image {
+  max-width: 85px;
+  max-height: 125px;
+}
