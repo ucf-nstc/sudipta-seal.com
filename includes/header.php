@@ -16,5 +16,8 @@
 
 	<!-- Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- UCF Header -->
+	<script type="text/javascript" src="http://universityheader.ucf.edu/bar/js/university-header.js"></script>
 </head>
 <body>
